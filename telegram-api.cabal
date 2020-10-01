@@ -1,5 +1,5 @@
 name:                telegram-api
-version:             0.7.1.0
+version:             0.7.2.0
 synopsis:            Telegram Bot API bindings
 description:         High-level bindings to the Telegram Bot API
 homepage:            http://github.com/klappvisor/haskell-telegram-api#readme
@@ -51,7 +51,7 @@ library
                      , http-api-data
                      , http-client
                      , servant
-                     , servant-client == 0.16
+                     , servant-client >= 0.16
                      , servant-client-core
                      , mtl
                      , text
